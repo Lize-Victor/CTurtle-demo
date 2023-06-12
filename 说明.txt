@@ -1,0 +1,1 @@
+运行依赖于GraphicsMagick软件
