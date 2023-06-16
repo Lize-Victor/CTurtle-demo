@@ -65,7 +65,7 @@ build CMakeFiles/jingziqi.dir/main.cpp.obj: CXX_COMPILER__jingziqi_Debug E$:/VSC
 
 build jingziqi.exe: CXX_EXECUTABLE_LINKER__jingziqi_Debug CMakeFiles/jingziqi.dir/main.cpp.obj
   FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  LINK_LIBRARIES = -lgdi32  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\jingziqi.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
