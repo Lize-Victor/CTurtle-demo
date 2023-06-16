@@ -117,7 +117,7 @@ public:
 };
 int main()
 {
-    ct::Image img("onepiece.jpeg");
+    ct::Image img("background.jpeg");
     img.resize(900, 900);
     scr.bgpic(img);
     ct::Turtle **pens = new ct::Turtle *[9];
