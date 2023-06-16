@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.24)
+project(jingziqi)
+configure_file(background.jpeg background.jpeg COPYONLY)
+aux_source_directory(. DIR_SRCS)
+add_executable(jingziqi ${DIR_SRCS})
